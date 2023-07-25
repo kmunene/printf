@@ -4,7 +4,7 @@
 
 /**
  * main - entry point of the program
- *
+ *By ShimwatiMoody & kmunene
  * Return: always 0
  */
 int main(void)
