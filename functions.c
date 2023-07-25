@@ -179,7 +179,9 @@ int flags, int width, int precision, int size)
 		if (sum || i == 31)
 		{
 			char z = '0' + a[i];
+
 			write(1, &z, 1);
+
 
 			count++;
 
