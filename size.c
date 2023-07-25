@@ -6,6 +6,7 @@
  * @i: Pointer to the current index in the format string.
  * Return: Size specifier for casting the argument.
  */
+
 int get_size(const char *format, int *i)
 {
     int curr_i = *i + 1;
