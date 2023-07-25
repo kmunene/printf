@@ -6,8 +6,8 @@
  * @c: character types used in the program.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flag.
- * @width: get widt of the coode 
- * @precision: precision specifi
+ * @width: get widt of the coode
+ * @precision: precision specifier
  * @size: Size specification
  * Return: Number of chars printed.
  */
@@ -51,7 +51,7 @@ int handle_write_char(char c, char buffer[],
  * @buffer: Bufferto handle print
  * @flags:  Calculates ac
  * @width: get width.
- * @precision: precision 
+ * @precision: precision
  * @size: Size specifier
  * Return: Number of chars printed.
  */
@@ -77,7 +77,7 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - Write a number using 
+ * write_num - Write a number using
  * @ind: Index at which the n
  * @buffer: Buffer
  * @flags: Flag
