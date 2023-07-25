@@ -3,9 +3,15 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
  * main - Entry point
  *
  * Return: Always 0
+=======
+ * main - entry point of the program
+ *By ShimwatiMoody & kmunene
+ * Return: always 0
+>>>>>>> 9b606aab157324e1ebaf3519f0e875f6392257fd
  */
 int main(void)
 {
