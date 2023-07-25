@@ -2,7 +2,7 @@
 
 /**
  * get_width - This function calculates the width for printing
- * @format ; Formatted strng containing th format specifier
+ * @format: Formatted strng containing th format specifier
  * @i: Pointer to the currnt index in the format strng
  * @list: Arguments
  * Return: Width value for formatting the output
@@ -35,4 +35,5 @@ break;
 *i = curr_i - 1;
 
 return (width);
+
 }
