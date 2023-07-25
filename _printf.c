@@ -3,10 +3,10 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Prints formatted output.
- * @format: Format string containing the text to be printed.
- *
- * Return: Number of characters printed on success, -1 on failure.
+ * _printf - This funct. prints char
+ * @format: Format string containing the text to be printed
+ * Display char
+ * Return: Printed characters
  */
 int _printf(const char *format, ...)
 {
@@ -27,6 +27,7 @@ int _printf(const char *format, ...)
 			buffer[buff_ind++] = format[i];
 			if (buff_ind == BUFF_SIZE)
 				print_buffer(buffer, &buff_ind);
+			/* write(1, &format[i], 1);*/
 			printed_chars++;
 		}
 		else
@@ -64,4 +65,3 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
-
