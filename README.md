@@ -1,1 +1,3 @@
-The printf project alx
+
+0x11. C - printf Project
+By ShimwatiMoody & kmunene.
