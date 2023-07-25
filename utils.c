@@ -74,11 +74,10 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsgnd - This function casts number to specified size
+ * convert_size_unsgnd - Tion casts number to specified size
  * @num: No. to be casted
- * @size: No. indicating the type to be casted
- * Display the casted number
- *
+ * @size: No. indiing the type t
+ * Display the casteder
  * Return: Casted value of num
  */
 long int convert_size_unsgnd(unsigned long int num, int size)

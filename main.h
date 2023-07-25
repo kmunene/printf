@@ -21,8 +21,8 @@
 
 /**
  * struct fmt - Struct op
- * @fmt: The format.
- * @fn: The function associated.
+ * @fmt: Thet.
+ * @fn: function associated.
  */
 struct fmt
 {
@@ -33,7 +33,7 @@ struct fmt
 /**
  * typedef fmt_t - The struct op
  * @fmt: The format.
- * @fm_t: The function in association.
+ * @fm_t: The function in ion.
  */
 typedef struct fmt fmt_t;
 
@@ -41,7 +41,7 @@ int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i, va_list list, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Functions to print chars and strings */
+/* Functions to ps and strings */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_string(va_list types, char buffer[],
@@ -70,17 +70,17 @@ int print_hexa(va_list types, char map_to[], char buffer[],
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Function to print memory address */
+/* Functi int memory address */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Functions to handle other specifiers */
+/* Functions to hand specifiers */
 int get_flags(const char *format, int *i);
 int get_width(const char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
 int get_size(const char *format, int *i);
 
-/* Function to print string in reverse */
+/*   string in reverse */
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 

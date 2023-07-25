@@ -196,16 +196,15 @@ int write_unsgnd(int is_negative, int ind,
 }
 
 /**
- * write_pointer - Write memory address
+ * write_pointer - Wory address
  * @buffer: Arrays of chars
- * @ind: Index at which the number starts in the buffer
+ * @ind: Index at which the ffer
  * @length: Length of number
  * @width: Wwidth specifier
  * @flags: Flags specifier
- * @padd: Char representing the padding
- * @extra_c: Char representing extra char
- * @padd_start: Index at which padding should start
- *
+ * @padd: Char repr the padding
+ * @extra_c: Char representra char
+ * @padd_start: Index at which pad
  * Return: Number of written chars.
  */
 int write_pointer(char buffer[], int ind, int length,

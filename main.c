@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Entry pint
  * Display output
  *
  * Return: Always 0

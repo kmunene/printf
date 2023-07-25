@@ -4,9 +4,9 @@ void print_buffer(char buffer[], int *buff_ind);
 
 /**
  * _printf - This funct. prints char
- * @format: Format string containing the text to be printed
+ * @format: Format string ed
  * Display char
- * Return: Printed characters
+ * Return: Printeers
  */
 int _printf(const char *format, ...)
 {
