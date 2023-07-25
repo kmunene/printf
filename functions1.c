@@ -2,15 +2,14 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_unsigned - Prints unsigned number
+ * print_unsigned - Prints unsigned 
  * @types: List of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width
+ * @buffer: fer array to handle print
+ * @flags:  Cal active flags
+ * @width: get w
  * @precision: Precision specification
  * @size: Size specifier
- * Display unsigned number on a computer..
- *
+ * Display unsigned uter..
  * Return: Number of chars printed.
  */
 int print_unsigned(va_list types, char buffer[],
@@ -39,12 +38,12 @@ int print_unsigned(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 /**
- * print_octal - Prints an unsigned number in octal notation
+ * print_octal - Prints an unsigneal notation
  * @types: List of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width
- * @precision: Precision specification
+ * @buffer: Buffer array  print
+ * @flags:  Calcultive flags
+ * @width: get wth
+ * @precision: Pre ecification
  * @size: Size specifier
  * Display Octal number..
  *
@@ -83,14 +82,14 @@ int print_octal(va_list types, char buffer[],
 
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
- * print_hexadecimal - Prints an unsigned number in hexadecimal notation
- * @types: List of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * print_hexadecimal - Prints an l notation
+ * @types: List of argum
+ * @buffer: Buffer  to handle print
+ * @flags:  Calculates lags
  * @width: get width
- * @precision: Precision specification
+ * @precision: Precision spec
  * @size: Size specifier
- * Display unsigned hexadecimal numbner
+ * Display unsigned hal numbner
  * Return: Number of chars printed
  */
 int print_hexadecimal(va_list types, char buffer[],
@@ -102,14 +101,14 @@ int print_hexadecimal(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
- * print_hexa_upper - A function that prints an unsigned number in upper hexadecimal notation
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * print_hexa_upper - A function per hexadecimal notation
+ * @types: Lista of 
+ * @buffer: rray to handle print
+ * @flags:  Calcve flags
  * @width: get width
- * @precision: Precision specification
+ * @precision: Precision spion
  * @size: Size specifier
- * Display unsigned number in upper hexadecimal..
+ * Display unsiin upper hexadecimal..
  *
  * Return: Number of chars printed
  */
@@ -122,12 +121,12 @@ int print_hexa_upper(va_list types, char buffer[],
 
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 /**
- * print_hexa - Prints a hexadecimal number in lower or upper
- * @types: List of arguments
- * @map_to: Array of values to map the number to
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @flag_ch: Calculates active flags
+ * print_hexa - Prints a hex upper
+ * @types: List of ar
+ * @map_to: Ar values to map the number to
+ * @buffer: B ray to handle print
+ * @flags:  Cal s active flags
+ * @flag_ch:  ulates active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier

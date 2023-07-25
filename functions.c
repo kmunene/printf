@@ -97,16 +97,16 @@ int print_percent(va_list types, char buffer[],
 	return (write(1, "%%", 1));
 }
 
-/************************* PRINT INT *************************/
+/******************* PRINT INT ******************/
 /**
- * print_int - Print int
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * print_int - Print integro
+ * @types: Lista of arg
+ * @buffer: Buffer array to handle print function
+ * @flags:  Calculates active flags on the program
+ * @width: get width pf themprogram
+ * @precision: Precisio spec fication
+ * @size: Size specificater
+ * Return: Number of characters to be printed
  */
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -141,16 +141,16 @@ int print_int(va_list types, char buffer[],
 	return (write_number(is_negative, i, buffer, flags, width, precision, size));
 }
 
-/************************* PRINT BINARY *************************/
+/******************** PRINT BINARY ********************/
 /**
- * print_binary - Prints an unsigned number
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * print_binary - Prints an unsigned number of binary in binary
+ * @types: Lista of argum ments
+ * @buffer: Buffer array to hand to print ccc
+ * @flags:  Calculates active fla in the program
  * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Numbers of char printed.
+ * @precision: Precision specific
+ * @size: Size speci fiersndsk
+ * Return: Numbers of char pvidsjvnted.
  */
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
