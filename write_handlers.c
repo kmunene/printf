@@ -2,15 +2,16 @@
 
 /************************* WRITE HANDLE *************************/
 /**
- * handle_write_char - Prints a character with padding
- * @c: Character to be printed
+ * handle_write_char - This function prints a character
+ * with padding
+ * @c: Char to be printed
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
  * @width: Width specifier
  * @precision: Precision specifier
  * @size: Size specifier
  *
- * Return: Number of characters printed.
+ * Return: No. of chars printed.
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
@@ -47,11 +48,11 @@ int handle_write_char(char c, char buffer[],
 
 /************************* WRITE NUMBER *************************/
 /**
- * write_number - Prints a number with padding
- * @is_negative: Indicates if the number is negative
+ * write_number - This function prints a number with padding
+ * @is_negative: Function that indicates if the no. is negative
  * @ind: Index at which the number starts on the buffer
- * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * @buffer: Buffer array
+ * @flags: Function for active flags calculation
  * @width: Width specifier
  * @precision: Precision specifier
  * @size: Size specifier
@@ -80,10 +81,10 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - Writing a number using a buffer
- * @ind: Index at which the number starts on the buffer
- * @buffer: Buffer array to handle print
- * @flags: Calculates active flags
+ * write_num - function for writing a number using a buffer
+ * @ind: Index at which the number starts
+ * @buffer: Buffer array
+ * @flags:  active flags
  * @width: Width specifier
  * @prec: Precision specifier
  * @length: Number length
